@@ -1,0 +1,19 @@
+{
+  "name": "obsidian-github-updater",
+  "version": "1.2.2",
+  "description": "Download and install unofficial plugins directly from GitHub.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "node esbuild.config.mjs production"
+  },
+  "keywords": [],
+  "author": "Real-Fruit-Snacks",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.21.0",
+    "obsidian": "^1.5.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.0"
+  }
+}
