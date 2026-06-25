@@ -1,6 +1,6 @@
 {
   "name": "obsidian-github-updater",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Download and install unofficial plugins directly from GitHub.",
   "main": "main.js",
   "scripts": {
