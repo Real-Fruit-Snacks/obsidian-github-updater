@@ -23,7 +23,7 @@ export class GithubUpdaterSettingTab extends PluginSettingTab {
 		
 		this.updatesAvailable.clear();
 
-		containerEl.createEl('h2', { text: 'GitHub Plugin Updater Settings' });
+		(new Setting(containerEl) as any).setHeading().setName('GitHub Plugin Updater Settings');
 
 		new Setting(containerEl)
 			.setName('Auto-detect Unofficial Plugins')
@@ -109,7 +109,7 @@ export class GithubUpdaterSettingTab extends PluginSettingTab {
 					this.display();
 				}));
 
-		containerEl.createEl('h3', { text: 'Tracked Repositories' });
+		(new Setting(containerEl) as any).setHeading().setName('Tracked Repositories');
 
 		if (this.plugin.settings.trackedRepos.length === 0) {
 			containerEl.createEl('p', { text: 'No repositories tracked yet.' });

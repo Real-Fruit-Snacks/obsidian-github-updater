@@ -1,7 +1,7 @@
 {
   "id": "github-updater",
   "name": "GitHub Updater",
-  "version": "1.2.4",
+  "version": "1.2.7",
   "minAppVersion": "1.0.0",
   "description": "Download and install unofficial plugins directly from GitHub.",
   "author": "Real-Fruit-Snacks",

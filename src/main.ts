@@ -38,7 +38,7 @@ export default class GithubUpdaterPlugin extends Plugin {
 
 		// Background startup check after 5 seconds
 		this.app.workspace.onLayoutReady(() => {
-			setTimeout(() => {
+			window.setTimeout(() => {
 				this.runBackgroundUpdateCheck();
 			}, 5000);
 		});
